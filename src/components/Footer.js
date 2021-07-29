@@ -11,6 +11,7 @@ export default class Footer extends React.Component {
               <div className="inner">
                 <div className="site-footer-inside">
                   <div className="site-info">
+                    <a href="https://www.digitalocean.com/?refcode=f141bca6275b&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%203.svg" alt="DigitalOcean Referral Badge" /></a>
                     {_.get(this.props, 'data.config.footer.content', null) && (
                     <span className="copyright">{htmlToReact(_.get(this.props, 'data.config.footer.content', null))}</span>
                     )}

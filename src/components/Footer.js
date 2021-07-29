@@ -17,10 +17,8 @@ export default class Footer extends React.Component {
                     {_.map(_.get(this.props, 'data.config.footer.links', null), (action, action_idx) => (
                       <ActionLink key={action_idx} {...this.props} action={action} />
                     ))}
-                    <div className="social-links">
-                        <a href="https://www.digitalocean.com/?refcode=f141bca6275b&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%203.svg" alt="DigitalOcean Referral Badge" /></a>
-                    </div>
                   </div>
+                  
                   {_.get(this.props, 'data.config.footer.has_social', null) && (
                   <div className="social-links">
                     {_.map(_.get(this.props, 'data.config.footer.social_links', null), (action, action_idx) => (

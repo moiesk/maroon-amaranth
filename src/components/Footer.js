@@ -9,9 +9,6 @@ export default class Footer extends React.Component {
         return (
             <footer id="colophon" className="site-footer outer">
               <div className="inner">
-              <div className="social-links">
-                    <a href="https://www.digitalocean.com/?refcode=f141bca6275b&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%203.svg" alt="DigitalOcean Referral Badge" /></a>
-               </div>
                 <div className="site-footer-inside">
                   <div className="site-info">
                     {_.get(this.props, 'data.config.footer.content', null) && (
@@ -20,6 +17,9 @@ export default class Footer extends React.Component {
                     {_.map(_.get(this.props, 'data.config.footer.links', null), (action, action_idx) => (
                       <ActionLink key={action_idx} {...this.props} action={action} />
                     ))}
+                    <div className="social-links">
+                        <a href="https://www.digitalocean.com/?refcode=f141bca6275b&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%203.svg" alt="DigitalOcean Referral Badge" /></a>
+                    </div>
                   </div>
                   {_.get(this.props, 'data.config.footer.has_social', null) && (
                   <div className="social-links">

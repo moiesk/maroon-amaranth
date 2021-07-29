@@ -1,5 +1,5 @@
 ---
-title: lorem-ipsum
+title: Sammy's Birthday
 subtitle: lorem-ipsum
 date: '2021-07-29'
 thumb_img_alt: lorem-ipsum

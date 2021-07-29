@@ -1,6 +1,6 @@
 ---
 title: Sammy's Birthday
-subtitle: Sammy got a new design on
+subtitle: Sammy got a new design on June 10th 2014
 date: '2021-07-29'
 thumb_img_alt: lorem-ipsum
 content_img_alt: lorem-ipsum

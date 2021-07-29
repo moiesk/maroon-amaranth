@@ -1,6 +1,6 @@
 ---
 title: Sammy's Birthday
-subtitle: lorem-ipsum
+subtitle: Sammy
 date: '2021-07-29'
 thumb_img_alt: lorem-ipsum
 content_img_alt: lorem-ipsum

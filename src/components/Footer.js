@@ -24,6 +24,7 @@ export default class Footer extends React.Component {
                       <ActionLink key={action_idx} {...this.props} action={action} />
                     ))}
                   </div>
+                  
                   )}
                 </div>
               </div>

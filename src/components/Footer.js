@@ -24,6 +24,9 @@ export default class Footer extends React.Component {
                       <ActionLink key={action_idx} {...this.props} action={action} />
                     ))}
                   </div>
+                                    <div>
+                    <a href="https://www.digitalocean.com/?refcode=f141bca6275b&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" alt="DigitalOcean Referral Badge" /></a>
+                  </div>
                   )}
                 </div>
               </div>
